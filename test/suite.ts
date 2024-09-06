@@ -39,7 +39,7 @@ function randomId() {
 }
 
 function randomUsername() {
-    return 'test_' + Date.now() + '_' + randomId();;
+    return 'test_' + Date.now() + '_' + randomId();
 }
 
 describe('the test environment', () => {
